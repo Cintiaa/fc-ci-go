@@ -1,0 +1,11 @@
+mode: set
+fc-ci-go/math/math.go:5.13,7.2 1 0
+fc-ci-go/math/math.go:9.28,11.2 1 1
+fc-ci-go/math/math.go:13.33,15.2 1 1
+fc-ci-go/math/math.go:17.33,19.2 1 1
+fc-ci-go/math/math.go:21.31,22.12 1 1
+fc-ci-go/math/math.go:22.12,24.3 1 1
+fc-ci-go/math/math.go:25.2,25.14 1 1
+fc-ci-go/math/math.go:28.31,29.12 1 1
+fc-ci-go/math/math.go:29.12,31.3 1 1
+fc-ci-go/math/math.go:32.2,32.14 1 1
