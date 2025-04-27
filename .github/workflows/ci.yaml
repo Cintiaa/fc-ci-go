@@ -17,4 +17,8 @@ jobs:
         with: 
           go-version: ${{ matrix.go }}
       - run: go test -coverprofile=coverage.out
-      - run: go run math.go
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        
